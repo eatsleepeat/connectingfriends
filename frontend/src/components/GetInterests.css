@@ -1,0 +1,52 @@
+main {
+    text-align: center;
+    margin-top: 30vh;
+    padding: 1em 2em;
+    background: whitesmoke;
+    width: max-content;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.09);
+}
+
+main input {
+    padding: 1em;
+    width: 200px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 15px;
+    margin: 10px;
+    transition:  all 0.25s;
+}
+
+main input:focus {
+    border-color: blue;
+    border-radius: 50px;
+    outline: none;
+}
+
+main button {
+    padding: 1em;
+    width: 200px;
+    background: rgb(37, 224, 37);
+    border: none;
+    transition: all 0.25s;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+main button:hover {
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: rgb(102, 240, 102);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.09);
+}
+
+main button:disabled:hover {
+    cursor: not-allowed;
+    border-radius: 20px;
+}
+
+main button:focus {
+    outline: none;
+}
